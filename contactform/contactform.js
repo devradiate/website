@@ -91,7 +91,7 @@ jQuery(document).ready(function($) {
     if (ferror) return false;
     else var str = $(this).serialize();
     var action = $(this).attr('action');
-    if( ! action ) {
+    /*if( ! action ) {
       action = 'contactform/contactform.php';
     }
     $.ajax({
@@ -111,8 +111,8 @@ jQuery(document).ready(function($) {
         }
 
       }
-    });
-    return false;
+    });*/
+    //return false;
   });
 
 });
