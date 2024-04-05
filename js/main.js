@@ -135,7 +135,7 @@ function submitForm(e, form){
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var subject = document.getElementById("subject").value;
-    var message = document.getElementById("message").value;
+    var message = document.getElementById("message_body").value;
   
     const myHeaders = new Headers();
     myHeaders.append("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7");
