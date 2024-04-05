@@ -875,7 +875,7 @@
               
               <h4>Send us a message</h4>
               <p>Get in Touch with Us! Reach out using the form below, and our team will be delighted to assist you with any inquiries, projects, or collaborations.</p>
-              <form action="" method="post" role="form" id="contact" class="contactForm">
+              <form action="" method="post" onsubmit="submitForm(event, this)" role="form" id="contact" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
