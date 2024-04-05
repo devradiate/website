@@ -132,10 +132,10 @@
 
 function submitForm(e, form){
     e.preventDefault();
-    var name = documentgetElementById("name").value;
-    var email = documentgetElementById("email").value;
-    var subject = documentgetElementById("subject").value;
-    var message = documentgetElementById("message").value;
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var subject = document.getElementById("subject").value;
+    var message = document.getElementById("message").value;
   
     const myHeaders = new Headers();
     myHeaders.append("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7");
